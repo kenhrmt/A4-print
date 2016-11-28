@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello world!</title>
+
+    <style>
+a {
+  font-size: 3em;
+  width: 60%;
+  color: #ddd;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+.fa:hover { color: #333;}
+h1 { display:none;}
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  a {display: none;}
+  h1{display:block;}
+}
+    </style>
+  </head>
+  <body>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <a href="#" title="print" onclick="window.print();"><i class="fa fa-print" aria-hidden="true"></i></a>
+    <h1>Hello world.<h1>
+    <script>
+    </script>
+  </body>
+</html>
