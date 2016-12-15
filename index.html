@@ -24,6 +24,12 @@ h1 { display:none;}
 @media print {
   a {display: none;}
   h1{display:block;}
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  body {width: 210mm;}   /* needed for Chrome */
 }
     </style>
   </head>
